@@ -56,7 +56,11 @@ h2 {
 }
 
 h3 {
-
+  font-family: Slack-Averta,appleLogo,sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #323648;
 }
 
 .primary-button {
@@ -81,6 +85,10 @@ strong.dark-text {
 
 p.smaller {
   font-size: 15.5px;
+}
+
+a {
+  text-decoration: none;
 }
 
 a.links {
@@ -141,6 +149,13 @@ article.articles {
   box-shadow: 0 0 2rem rgba(0,0,0,.1);
   background-color: #fff;
   margin-bottom: 2.43902439%;
+}
+
+header.article-header {
+  padding-top: 1.5rem;
+  padding-right: 4rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
 }
 
 /* ---- section 4 ---- */
